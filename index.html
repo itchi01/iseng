@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+<style> 
+body {
+	background-color: limegreen;
+	background-image: url("https://nypdecider.files.wordpress.com/2018/05/netflix-logo.png?w=646&h=431&crop=1");
+}
+.container {
+margin-top: 25%;
+margin-bottom: 25%;
+padding: 150px;
+background-color: forestgreen;
+position: absolute;
+margin-left: 25%;
+border-radius: 10px;
+border:5px dashed black;
+}
+.btn{
+padding: 15px;
+cursor:pointer;
+transition: all .3s;
+text-shadow: 2px 2px 8px red;
+font-size: 24px;
+background-color: blue;
+border-radius: 10px;
+transition: 0.4s;
+}
+.btn1{
+	background-color: Blue;
+	color: white;
+}
+.btn1:hover{
+	background-color: DarkBlue;
+	color:black;
+}
+.navbar{
+	padding: 10px;
+	background-color:tomato;
+}
+.label1{
+	padding: 10px;
+	background-color: bisque;
+	border-color: blue;
+}
+</style>s
+<title>Page Title</title>
+</head>
+<body>
+	<div class="navbar">
+			<div class="col-6">
+				<nav > 
+					<a href="#HOME"> HOME </a>
+					<a href="#Contact"> Contact </a>
+			<div class="col-6">
+					<a href="#Signin"> Signin </a>
+					<a href="#Register"> Register </a>
+				</nav>
+					<div class="container">
+						<h1 align="center" style=" text-shadow: 2px 2px 8px Yellow; font-size: 46px; font-family:Roboto;">Nonton Sekarang KUY</h1>
+						<center>
+							<form action="submit.php" method="post">
+							<label for="email">Masukan Email</label><br>
+							<input type="email" name="email" size="20" placeholder="mail@mail.com" minlength="6" autocomplete autofocus required class="label1"><br><br>
+							<label for="password">Masukan Password</label><br>
+							<input type="password" name="password" size="20" placeholder="password" maxlength="20" minlength="6" autocomplete required class="label1"><br><br>
+							<input class="btn btn1" type="submit" value="Login" onclick="alert('silahkan tunggu sebentar')">
+							</form>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
